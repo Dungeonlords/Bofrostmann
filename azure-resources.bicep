@@ -1,5 +1,5 @@
 param location string = 'westeurope'
-param storageName string = 'mynewubuntudrive'
+param storageName string = 'mynewubuntudrivee'
 
 param namePrefix string = 'paulon'
 
