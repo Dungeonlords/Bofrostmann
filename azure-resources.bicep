@@ -3,7 +3,7 @@ param storageName string = 'mynewubuntudrive'
 
 param namePrefix string = 'paulon'
 
-param dockerImage string = 'ubuntu/nginx' //'nginxdemos/hello'
+param dockerImage string = 'nginx' //'nginxdemos/hello'
 param dockerImageTag string = 'latest'
 
 targetScope = 'resourceGroup'
