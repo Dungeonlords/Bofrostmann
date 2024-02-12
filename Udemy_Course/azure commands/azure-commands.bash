@@ -22,4 +22,4 @@ az bicep version
 az group delete --name exampleGroup
 
 #azure Service principal setup
-az ad sp create-for-rbac --name "YourSPName" --role contributor --scopes /subscriptions/yourSubscriptionId
+az ad sp create-for-rbac --name "dungeonlord" --role contributor --scopes /subscriptions/0496e909-e896-439c-a28a-cb805353e770
