@@ -1,5 +1,4 @@
-param location string = 'westus3'
-
+param location string
 param namePrefix string = 'itosx'
 param appPlanId string
 
