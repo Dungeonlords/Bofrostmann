@@ -9,7 +9,7 @@ param dockerImageTag string = 'latest'
 targetScope = 'resourceGroup'
 
 //how do consume modules
-module storage '../modules/storage.bicep' = {
+module storage 'modules/storage.bicep' = {
   name: storageName
   params: {
     storageName: storageName
@@ -17,7 +17,7 @@ module storage '../modules/storage.bicep' = {
   }
 }
 
-module appPlanDeploy '../modules/servicePlan.bicep' = {
+module appPlanDeploy 'modules/servicePlan.bicep' = {
   name: '${namePrefix}-appPlanDeploy'
   params: {
     namePrefix: namePrefix
@@ -26,7 +26,7 @@ module appPlanDeploy '../modules/servicePlan.bicep' = {
   }
 }
 
-module deployWebsite '../modules/webApp.bicep' = {
+module deployWebsite 'modules/webApp.bicep' = {
   name: '${namePrefix}-deploy-website'
   params: {
     location: location
